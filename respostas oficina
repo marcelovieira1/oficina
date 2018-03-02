@@ -1,0 +1,17 @@
+ROTEIRO
+1 - SSH ESTÁ INSTALADO.
+2 - MKDIR --> CRIAR PASTA.
+3 - MKDIR - P --> CRIAR COM SUBPASTAS.
+4 - RM- COMANDO PRA DELETAR ARQUIVO. RM - R PRA DELETAR DIRETÓRIO
+5 - PARAMETRO PRA FORCAR REMOCAO DIRETORIO. RM-F
+6 - scp-r usuario@ip:~/NOMEDAPASTA . (BAIXAR ARQUIVOS MÁQUINA NA REDE)
+~ = home/usuario
+7 - ls - l para listar os arquivos do mais velho ao novo.
+8 - ps no terminal
+9 - ps ax1      
+10 - touch
+11 - man
+12 - cat é o comando para mostrar o conteudo no terminal
+13 -
+
+
