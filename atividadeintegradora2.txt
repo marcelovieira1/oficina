@@ -1,0 +1,14 @@
+As expressões regulares utilizam um padrão existente para busca de trechos no código para realizar alterações ou consultas no código. É completamente possível utilizar expressões regulares no shell script utilizando meta caracteres. As expressões regulares fazem uso de caracteres especiais – como *, ^, + e –, cada um contendo uma função. Ao fim, acaba-se obtendo uma espécie de "fórmula lógica" capaz de realizar as buscas mais mirabolantes que um administrador ou usuário venha a precisar.
+
+Uma pequena lista de caracteres e significados:
+
+    ^ : começa com
+    $ : término de linha
+    . : qualquer caracter
+    [] : relação de valores possíveis para um caracter. Você pode especificar uma lista ( [abcde] ), uma faixa ( [0-9] ), ou várias faixas ( [a-zA-Z0-9] ).
+    \{\} : especifica quantas vezes o caracter pode se repetir. Por exemplo: “{2}” (duas vezes), “{2,5}” (duas a cinco vezes), “{2,}” (duas ou mais vezes).
+    | : operador lógico ou
+    .* : operador lógico e
+
+Combinando o comando grep pra filtrar informações é possível conseguir consultar e alterações complexas e rápidas.
+É preciso chamar algum editor de texto para a realização do script ( o vi, por exemplo).
